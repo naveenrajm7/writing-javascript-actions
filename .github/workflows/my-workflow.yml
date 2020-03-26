@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v1
         
       - name: hello-action
-        uses: ./.github/workflows/hello-world
+        uses: ./.github/actions/hello-world
