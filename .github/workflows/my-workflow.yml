@@ -26,5 +26,6 @@ jobs:
         with:
             repo-token: ${{secrets.GITHUB_TOKEN}}
             joke: ${{steps.jokes.outputs.joke-output}}
+            issue-title: "A cool dad joke"
 
 
